@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #1F2933;
+  background-color: #e6e1e1;
+}
+
+header,
+main {
+  width: 40rem;
+
+}
+
+/*mobile first styles*/
+h1,
+h2,
+h3 {
+  color: #0F172A
+}
+
+h1 {
+  font-size: 2rem;
+  padding-left: 0;
+}
+
+h2 {
+  font-size: 1.2rem;
+  padding-left: 2rem;
+  border-bottom: 1px solid #b6b8bb;
+}
+
+.occupation{
+  border-bottom:none ;
+}
+ h4 {
+  color: #6B7280;
+  font-size: .6rem;
+
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+.years {
+  margin-right: .6rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 2rem;
+}
+
+.occupation {
+  padding-left: 0;
+}
+
+.contacts {
+  padding-left: 2rem;
+  display: flex;
+  text-decoration: none;
+  border: none;
+  gap: 2rem;
+}
+
+.about {
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+}
+
+.single-contact {
+  color: #707174;
+  text-decoration: none;
+}
+
+.left-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+
+
+.list-of-responsibilities {
+  align-items: flex-start;
+
+}
+
+section {
+  gap: 1rem;
+
+
+}
+
+.position {
+  display: flex;
+}
+
+.position,
+.education-section,
+.education-div {
+  padding: 2rem;
+}
+
+.years {
+  color: #6B7280;
+  padding-left: 0;
+}
+
+.list-of-responsibilities,
+.education-content {
+  margin-left: 2rem;
+
+}
+
+.main,
+.introduction,
+section {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+address {
+  display: flex;
+
+}
+
+.education-section {
+  display: flex;
+
+}
+
+.skills {
+
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.title-education,
+.sub-title-education,
+.education-section {
+  padding-left: 2rem;
+}
